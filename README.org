@@ -1,4 +1,4 @@
-#+TITLE: Preprint
+#+TITLE: Simulating Temperature Programmed Desorption of Oxygen on Pt(111) Using {DFT} Derived Coverage Dependent Desorption Barriers
 
 This is a preprint for this article:
 
@@ -21,40 +21,6 @@ This is a preprint for this article:
 #+END_SRC
 
 
-Read the [[/Users/jkitchin/Desktop/tpd-scaling/tpd-scaling.org][manuscript]] or the [[/Users/jkitchin/Desktop/tpd-scaling/supporting-information.org][supporting information]] org-files.
+Read the [[./tpd-scaling.org][manuscript]] or the [[./supporting-information.org][supporting information]] org-files.
 
-If you prefer the [[/Users/jkitchin/Desktop/tpd-scaling/tpd-scaling.pdf][manuscript.pdf]] or the [[/Users/jkitchin/Desktop/tpd-scaling/supporting-information.pdf][supporting-information.pdf]] you can read those too.
-
-
-
-* About this project
-It is part of an experiment in:
-1. An alternate preprint approach to services like arxiv and Pubmed
-2. Data sharing
-3. Making the preprint an installable package for Emacs
-
-
-Something like this might be the kind of data available for filtering.
-
-
-#+BEGIN_SRC emacs-lisp
-(kitchingroup-43
- :fetcher github
- :repo "Fill-in"
- :journal "Topics in Catalysis"
- :author ("Spencer D. Miller"
-	  "Vladimir V. Pushkarev"
-	  "Andrew J. Gellman"
-	  "John R. Kitchin")
- :title "Simulating Temperature Programmed Desorption of Oxygen on {P}t(111) Using {DFT} Derived Coverage Dependent Desorption Barriers"
- :volume "57"
- :number "1-4"
- :pages "106-117"
- :year 2014
- :doi "10.1007/s11244-013-0166-3"
- :url "http://link.springer.com/article/10.1007/s11244-013-0166-3"
- :keywords ("Coverage dependence"
-	    "Temperature programmed desorption"
-	    "Density functional theory"
-	    "Late transition metals"))
-#+END_SRC
+If you prefer the [[./tpd-scaling.pdf][manuscript.pdf]] or the [[./supporting-information.pdf][supporting-information.pdf]] you can read those too.
