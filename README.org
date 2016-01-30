@@ -1,0 +1,63 @@
+#+TITLE: Preprint
+
+This is a preprint for this article:
+
+#+BEGIN_SRC bibtex
+@article{miller-2014-simul-temper,
+  author =	 {Spencer D. Miller and Vladimir V. Pushkarev and Andrew
+                  J. Gellman and John R. Kitchin},
+  title =	 {Simulating Temperature Programmed Desorption of Oxygen on
+                  {P}t(111) Using {DFT} Derived Coverage Dependent Desorption
+                  Barriers},
+  journal =	 {Topics in Catalysis},
+  volume =	 57,
+  number =	 {1-4},
+  pages =	 {106-117},
+  year =	 2014,
+  doi =		 {10.1007/s11244-013-0166-3},
+  url =		 {http://dx.doi.org/10.1007/s11244-013-0166-3},
+  keywords =	 {DESC0004031, early-career, orgmode, },
+}
+#+END_SRC
+
+
+Read the [[/Users/jkitchin/Desktop/tpd-scaling/tpd-scaling.org][manuscript]] or the [[/Users/jkitchin/Desktop/tpd-scaling/supporting-information.org][supporting information]] org-files.
+
+If you prefer the [[/Users/jkitchin/Desktop/tpd-scaling/tpd-scaling.pdf][manuscript.pdf]] or the [[/Users/jkitchin/Desktop/tpd-scaling/supporting-information.pdf][supporting-information.pdf]] you can read those too.
+
+
+
+* About this project
+It is part of an experiment in:
+1. An alternate preprint approach to services like arxiv and Pubmed
+2. Data sharing
+3. Making the preprint an installable package for Emacs
+
+
+
+
+
+#+BEGIN_SRC emacs-lisp
+(kitchingroup-43
+ :fetcher github
+ :repo "Fill-in"
+ :journal "Topics in Catalysis"
+ :author ("Spencer D. Miller"
+	  "Vladimir V. Pushkarev"
+	  "Andrew J. Gellman"
+	  "John R. Kitchin")
+ :title "Simulating Temperature Programmed Desorption of Oxygen on {P}t(111) Using {DFT} Derived Coverage Dependent Desorption Barriers"
+ :volume "57"
+ :number "1-4"
+ :pages "106-117"
+ :year 2014
+ :doi "10.1007/s11244-013-0166-3"
+ :url "http://link.springer.com/article/10.1007/s11244-013-0166-3"
+ :keywords ("Coverage dependence"
+	    "Temperature programmed desorption"
+	    "Density functional theory"
+	    "Late transition metals"))
+#+END_SRC
+
+
+* Bibtex
