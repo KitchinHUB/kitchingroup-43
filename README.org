@@ -34,7 +34,7 @@ It is part of an experiment in:
 3. Making the preprint an installable package for Emacs
 
 
-
+Something like this might be the kind of data available for filtering.
 
 
 #+BEGIN_SRC emacs-lisp
@@ -58,6 +58,3 @@ It is part of an experiment in:
 	    "Density functional theory"
 	    "Late transition metals"))
 #+END_SRC
-
-
-* Bibtex
