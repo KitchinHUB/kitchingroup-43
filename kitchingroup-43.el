@@ -28,7 +28,10 @@
 
 ;;; Code:
 
-
+(find-file (expand-file-name
+	    "README.org"
+	    (file-name-directory
+	     (locate-library "kitchingroup-43"))))
 
 (provide 'kitchingroup-43)
 ;;; kitchingroup-43.el ends here
