@@ -41,7 +41,7 @@
 ;;; Code:
 (require 'cappa)
 
-(cappa 'kitchingroup-43
+(cappa-register 'kitchingroup-43
        :journal "Topics in Catalysis"
        :author '("Spencer D. Miller"
 		 "Vladimir V. Pushkarev"
