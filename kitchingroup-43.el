@@ -1,10 +1,10 @@
-;;; kitchingroup-43.el --- preprint                  -*- lexical-binding: t; -*-
+;;; kitchingroup-43.el --- preprint doi:10.1007/s11244-013-0166-3  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2016  John Kitchin
 
 ;; Author: John Kitchin <jkitchin@andrew.cmu.edu>
 ;; Keywords:
-;; Package-Requires:
+;; Package-Requires: ((cappa "0"))
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -39,14 +39,40 @@
 ;; }
 
 ;;; Code:
+(require 'cappa)
 
-;;;###autoload
-(defun kitchingroup-43 ()
-  (interactive)
-  (find-file (expand-file-name
-	      "README.org"
-	      (file-name-directory
-	       (locate-library "kitchingroup-43")))))
+(cappa 'kitchingroup-43
+       :journal "Topics in Catalysis"
+       :author '("Spencer D. Miller"
+		 "Vladimir V. Pushkarev"
+		 "Andrew J. Gellman"
+		 "John R. Kitchin")
+       :title "Simulating Temperature Programmed Desorption of Oxygen on {P}t(111) Using {DFT} Derived Coverage Dependent Desorption Barriers"
+       :volume "57"
+       :number "1-4"
+       :pages "106-117"
+       :year 2014
+       :doi "10.1007/s11244-013-0166-3"
+       :url "http://link.springer.com/article/10.1007/s11244-013-0166-3"
+       :keywords '("Coverage dependence"
+		   "Temperature programmed desorption"
+		   "Density functional theory"
+		   "Late transition metals")
+       :bibtex "@article{miller-2014-simul-temper,
+   author =	 {Spencer D. Miller and Vladimir V. Pushkarev and Andrew
+                   J. Gellman and John R. Kitchin},
+   title =	 {Simulating Temperature Programmed Desorption of Oxygen on
+                   {P}t(111) Using {DFT} Derived Coverage Dependent Desorption
+                   Barriers},
+   journal =	 {Topics in Catalysis},
+   volume =	 57,
+   number =	 {1-4},
+   pages =	 {106-117},
+   year =	 2014,
+   doi =		 {10.1007/s11244-013-0166-3},
+   url =		 {http://dx.doi.org/10.1007/s11244-013-0166-3},
+   keywords =	 {DESC0004031, early-career, orgmode, },
+ }")
 
 (provide 'kitchingroup-43)
 ;;; kitchingroup-43.el ends here
