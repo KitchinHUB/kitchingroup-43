@@ -12,7 +12,7 @@
 ;; Journal: Topics in Catalysis
 ;; Year: 2014
 ;; URL: http://link.springer.com/article/10.1007%2Fs11244-013-0166-3
-;; Bibtex: ;; @article{miller-2014-simul-temper,
+;; Bibtex: @article{miller-2014-simul-temper,
 ;;   author =	 {Spencer D. Miller and Vladimir V. Pushkarev and Andrew
 ;;                   J. Gellman and John R. Kitchin},
 ;;   title =	 {Simulating Temperature Programmed Desorption of Oxygen on
