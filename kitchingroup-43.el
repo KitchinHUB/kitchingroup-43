@@ -1,7 +1,7 @@
 ;;; kitchingroup-43.el --- preprint doi:10.1007/s11244-013-0166-3  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2016  John Kitchin
-
+;; Version: 1
 ;; Author: John Kitchin <jkitchin@andrew.cmu.edu>
 ;; Keywords:
 ;; Package-Requires: ((cappa "0"))
