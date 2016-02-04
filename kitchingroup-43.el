@@ -1,4 +1,4 @@
-;;; kitchingroup-43.el --- preprint doi:10.1007/s11244-013-0166-3
+;;; kitchingroup-43.el --- Simulating Temperature Programmed Desorption of Oxygen on {P}t(111) Using {DFT} Derived Coverage Dependent Desorption Barriers
 
 ;; Copyright (C) 2016  John Kitchin
 ;; Version: 1
